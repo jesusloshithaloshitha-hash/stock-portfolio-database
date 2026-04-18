@@ -1,0 +1,10 @@
+CREATE DATABASE stockdb;
+
+USE stockdb;
+
+CREATE TABLE portfolio (
+    stock_id INT PRIMARY KEY,
+    stock_name VARCHAR(50),
+    quantity INT,
+    price DOUBLE
+);
